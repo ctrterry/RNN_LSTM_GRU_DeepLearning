@@ -39,7 +39,7 @@ def main():
     trainer = TextGenerator(model)
     
     # Training parameters
-    num_epochs = 10
+    num_epochs = 200
     train_losses = []
     test_losses = []
     train_perplexities = []
