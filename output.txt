@@ -1,0 +1,558 @@
+PS C:\Users\luoya\Documents\WeChat Files\wxid_2exdyku7k0x122\FileStorage\File\2025-05\ECS189G_Winter_2025_Source_Code_Template> py -3.11 script\stage_4_script\classification\main.py
+>>
+Epoch 1/20, Train Loss: 0.7036, Test Loss: 0.6981, LR: 0.011
+Epoch 2/20, Train Loss: 0.6919, Test Loss: 0.6784, LR: 0.011
+Epoch 3/20, Train Loss: 0.62, Test Loss: 0.6058, LR: 0.011
+Epoch 4/20, Train Loss: 0.5143, Test Loss: 0.5091, LR: 0.011
+Epoch 5/20, Train Loss: 0.4187, Test Loss: 0.4487, LR: 0.011
+Epoch 6/20, Train Loss: 0.348, Test Loss: 0.4498, LR: 0.011
+Epoch 7/20, Train Loss: 0.2883, Test Loss: 0.4271, LR: 0.011
+Epoch 8/20, Train Loss: 0.2391, Test Loss: 0.4211, LR: 0.011
+Epoch 9/20, Train Loss: 0.2047, Test Loss: 0.4222, LR: 0.011
+Epoch 10/20, Train Loss: 0.1662, Test Loss: 0.4483, LR: 0.011
+Epoch 11/20, Train Loss: 0.1605, Test Loss: 0.5161, LR: 0.011
+
+Early stopping triggered after 11 epochs
+
+=== Text Classification Epoch-wise Metrics Summary ===
+Epoch  Accuracy  Precision  Recall    F1-score
+--------------------------------------------------
+ 1    0.5264    0.5188    0.9646    0.6738
+ 2    0.5401    0.7351    0.1069    0.1809
+ 3    0.7226    0.7972    0.5928    0.6798
+ 4    0.7871    0.7324    0.9101    0.8115
+ 5    0.8217    0.7974    0.864    0.8294
+ 6    0.824    0.8762    0.7526    0.8097
+ 7    0.8494    0.8471    0.8529    0.85
+ 8    0.8482    0.8209    0.8921    0.855
+ 9    0.8485    0.8094    0.9139    0.8584
+10    0.8566    0.8411    0.8801    0.8601
+11    0.8519    0.8813    0.8123    0.8454
+Plot saved to result/stage_4_result/classification\training_test_loss.png
+Plot saved to result/stage_4_result/classification\metrics_plot.png
+PS C:\Users\luoya\Documents\WeChat Files\wxid_2exdyku7k0x122\FileStorage\File\2025-05\ECS189G_Winter_2025_Source_Code_Template> py -3.11 script\stage_4_script\classification\ablation_studies.py
+
+Running experiment 1/18
+Configuration: {'vocab_size': 10000, 'embedding_dim': 100, 'hidden_dim': 128, 'num_layers': 2, 'dropout': 0.5, 'learning_rate': 0.001, 'weight_decay': 0, 'num_epochs': 10, 'batch_size': 64}
+Epoch 1/10, Train Loss: 0.7042, Test Loss: 0.7033, LR: 0.011
+Epoch 2/10, Train Loss: 0.6998, Test Loss: 0.7011, LR: 0.011
+Epoch 3/10, Train Loss: 0.6726, Test Loss: 0.6732, LR: 0.011
+Epoch 4/10, Train Loss: 0.6414, Test Loss: 0.674, LR: 0.011
+Epoch 5/10, Train Loss: 0.5604, Test Loss: 0.5369, LR: 0.011
+Epoch 6/10, Train Loss: 0.4035, Test Loss: 0.4422, LR: 0.011
+Epoch 7/10, Train Loss: 0.3099, Test Loss: 0.4119, LR: 0.011
+Epoch 8/10, Train Loss: 0.2395, Test Loss: 0.4221, LR: 0.011
+Epoch 9/10, Train Loss: 0.1958, Test Loss: 0.4674, LR: 0.011
+Epoch 10/10, Train Loss: 0.1601, Test Loss: 0.4759, LR: 0.011
+
+Early stopping triggered after 10 epochs
+
+=== Text Classification Epoch-wise Metrics Summary ===
+Epoch  Accuracy  Precision  Recall    F1-score
+--------------------------------------------------
+ 1    0.5151    0.5285    0.1525    0.2335
+ 2    0.5256    0.5785    0.1391    0.2204
+ 3    0.6289    0.6046    0.7572    0.6722
+ 4    0.6394    0.6123    0.7717    0.6827
+ 5    0.7679    0.801    0.711    0.7533
+ 6    0.8243    0.7856    0.8945    0.8365
+ 7    0.8464    0.8521    0.8382    0.8451
+ 8    0.8527    0.8482    0.8594    0.8538
+ 9    0.8506    0.8674    0.8271    0.8468
+10    0.8514    0.8531    0.849    0.851
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_1\training_curves.png
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_1\final_metrics.png
+
+Running experiment 2/18
+Configuration: {'vocab_size': 10000, 'embedding_dim': 150, 'hidden_dim': 128, 'num_layers': 2, 'dropout': 0.5, 'learning_rate': 0.001, 'weight_decay': 0, 'num_epochs': 10, 'batch_size': 64}
+Epoch 1/10, Train Loss: 0.7038, Test Loss: 0.7018, LR: 0.011
+Epoch 2/10, Train Loss: 0.7009, Test Loss: 0.7014, LR: 0.011
+Epoch 3/10, Train Loss: 0.6812, Test Loss: 0.6723, LR: 0.011
+Epoch 4/10, Train Loss: 0.6134, Test Loss: 0.6085, LR: 0.011
+Epoch 5/10, Train Loss: 0.4987, Test Loss: 0.5455, LR: 0.011
+Epoch 6/10, Train Loss: 0.4333, Test Loss: 0.5789, LR: 0.011
+Epoch 7/10, Train Loss: 0.3899, Test Loss: 0.5111, LR: 0.011
+Epoch 8/10, Train Loss: 0.3357, Test Loss: 0.477, LR: 0.011
+Epoch 9/10, Train Loss: 0.3034, Test Loss: 0.4725, LR: 0.011
+Epoch 10/10, Train Loss: 0.2632, Test Loss: 0.4576, LR: 0.011
+
+=== Text Classification Epoch-wise Metrics Summary ===
+Epoch  Accuracy  Precision  Recall    F1-score
+--------------------------------------------------
+ 1    0.5181    0.5141    0.9917    0.6762
+ 2    0.522    0.5907    0.0961    0.1599
+ 3    0.6063    0.5712    0.8927    0.6962
+ 4    0.7081    0.6957    0.7414    0.7178
+ 5    0.7658    0.7097    0.9062    0.7958
+ 6    0.7561    0.8889    0.5808    0.7021
+ 7    0.7897    0.8731    0.6748    0.7611
+ 8    0.8274    0.8275    0.8271    0.8273
+ 9    0.8321    0.8344    0.8286    0.8315
+10    0.8412    0.8283    0.8613    0.8445
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_2\training_curves.png
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_2\final_metrics.png
+
+Running experiment 3/18
+Configuration: {'vocab_size': 10000, 'embedding_dim': 250, 'hidden_dim': 128, 'num_layers': 2, 'dropout': 0.5, 'learning_rate': 0.001, 'weight_decay': 0, 'num_epochs': 10, 'batch_size': 64}
+Epoch 1/10, Train Loss: 0.7046, Test Loss: 0.7031, LR: 0.011
+Epoch 2/10, Train Loss: 0.6996, Test Loss: 0.7024, LR: 0.011
+Epoch 3/10, Train Loss: 0.6547, Test Loss: 0.6448, LR: 0.011
+Epoch 4/10, Train Loss: 0.563, Test Loss: 0.6181, LR: 0.011
+Epoch 5/10, Train Loss: 0.4864, Test Loss: 0.5256, LR: 0.011
+Epoch 6/10, Train Loss: 0.4054, Test Loss: 0.4618, LR: 0.011
+Epoch 7/10, Train Loss: 0.3052, Test Loss: 0.4339, LR: 0.011
+Epoch 8/10, Train Loss: 0.2597, Test Loss: 0.4479, LR: 0.011
+Epoch 9/10, Train Loss: 0.2214, Test Loss: 0.4542, LR: 0.011
+Epoch 10/10, Train Loss: 0.2071, Test Loss: 0.4567, LR: 0.011
+
+Early stopping triggered after 10 epochs
+
+=== Text Classification Epoch-wise Metrics Summary ===
+Epoch  Accuracy  Precision  Recall    F1-score
+--------------------------------------------------
+ 1    0.5128    0.5114    1    0.6758
+ 2    0.5205    0.5162    0.8741    0.6484
+ 3    0.6279    0.8037    0.3286    0.4646
+ 4    0.6774    0.8281    0.4406    0.5743
+ 5    0.7864    0.8125    0.7432    0.7763
+ 6    0.8222    0.82    0.8258    0.8229
+ 7    0.8297    0.8376    0.8175    0.8275
+ 8    0.8302    0.8231    0.8415    0.8322
+ 9    0.8387    0.8407    0.8357    0.8382
+10    0.8364    0.824    0.8562    0.8398
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_3\training_curves.png
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_3\final_metrics.png
+
+Running experiment 4/18
+Configuration: {'vocab_size': 10000, 'embedding_dim': 200, 'hidden_dim': 128, 'num_layers': 2, 'dropout': 0.5, 'learning_rate': 0.001, 'weight_decay': 0, 'num_epochs': 10, 'batch_size': 64}
+Epoch 1/10, Train Loss: 0.7045, Test Loss: 0.7027, LR: 0.011
+Epoch 2/10, Train Loss: 0.6959, Test Loss: 0.6959, LR: 0.011
+Epoch 3/10, Train Loss: 0.6639, Test Loss: 0.7076, LR: 0.011
+Epoch 4/10, Train Loss: 0.5029, Test Loss: 0.4963, LR: 0.011
+Epoch 5/10, Train Loss: 0.3455, Test Loss: 0.4632, LR: 0.011
+Epoch 6/10, Train Loss: 0.2573, Test Loss: 0.4713, LR: 0.011
+Epoch 7/10, Train Loss: 0.2, Test Loss: 0.5301, LR: 0.011
+Epoch 8/10, Train Loss: 0.1527, Test Loss: 0.5605, LR: 0.011
+
+Early stopping triggered after 8 epochs
+
+=== Text Classification Epoch-wise Metrics Summary ===
+Epoch  Accuracy  Precision  Recall    F1-score
+--------------------------------------------------
+ 1    0.5194    0.5547    0.1246    0.1993
+ 2    0.5295    0.5204    0.9656    0.6754
+ 3    0.5358    0.6725    0.115    0.1913
+ 4    0.7974    0.8099    0.7765    0.7929
+ 5    0.8216    0.8047    0.8503    0.8269
+ 6    0.8399    0.8671    0.8018    0.8332
+ 7    0.8404    0.8628    0.8086    0.8348
+ 8    0.8514    0.8474    0.8574    0.8524
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_4\training_curves.png
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_4\final_metrics.png
+
+Running experiment 5/18
+Configuration: {'vocab_size': 10000, 'embedding_dim': 100, 'hidden_dim': 256, 'num_layers': 2, 'dropout': 0.5, 'learning_rate': 0.001, 'weight_decay': 0, 'num_epochs': 10, 'batch_size': 64}
+Epoch 1/10, Train Loss: 0.7047, Test Loss: 0.7054, LR: 0.011
+Epoch 2/10, Train Loss: 0.7016, Test Loss: 0.7024, LR: 0.011
+Epoch 3/10, Train Loss: 0.6873, Test Loss: 0.7019, LR: 0.011
+Epoch 4/10, Train Loss: 0.642, Test Loss: 0.679, LR: 0.011
+Epoch 5/10, Train Loss: 0.6045, Test Loss: 0.7097, LR: 0.011
+Epoch 6/10, Train Loss: 0.5669, Test Loss: 0.7299, LR: 0.011
+Epoch 7/10, Train Loss: 0.5469, Test Loss: 0.7347, LR: 0.011
+
+Early stopping triggered after 7 epochs
+
+=== Text Classification Epoch-wise Metrics Summary ===
+Epoch  Accuracy  Precision  Recall    F1-score
+--------------------------------------------------
+ 1    0.5145    0.5259    0.1564    0.2381
+ 2    0.5206    0.5617    0.1235    0.1983
+ 3    0.5297    0.6136    0.1246    0.2027
+ 4    0.6327    0.7181    0.4276    0.5354
+ 5    0.6728    0.6931    0.6174    0.653
+ 6    0.6619    0.7088    0.5439    0.6154
+ 7    0.6985    0.7077    0.6752    0.6911
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_5\training_curves.png
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_5\final_metrics.png
+
+Running experiment 6/18
+Configuration: {'vocab_size': 10000, 'embedding_dim': 100, 'hidden_dim': 128, 'num_layers': 2, 'dropout': 0.3, 'learning_rate': 0.001, 'weight_decay': 0, 'num_epochs': 10, 'batch_size': 64}
+Epoch 1/10, Train Loss: 0.7035, Test Loss: 0.7028, LR: 0.011
+Epoch 2/10, Train Loss: 0.7005, Test Loss: 0.7011, LR: 0.011
+Epoch 3/10, Train Loss: 0.6905, Test Loss: 0.6971, LR: 0.011
+Epoch 4/10, Train Loss: 0.6631, Test Loss: 0.6661, LR: 0.011
+Epoch 5/10, Train Loss: 0.5779, Test Loss: 0.5502, LR: 0.011
+Epoch 6/10, Train Loss: 0.4631, Test Loss: 0.4648, LR: 0.011
+Epoch 7/10, Train Loss: 0.3716, Test Loss: 0.4299, LR: 0.011
+Epoch 8/10, Train Loss: 0.2869, Test Loss: 0.4219, LR: 0.011
+Epoch 9/10, Train Loss: 0.2386, Test Loss: 0.4225, LR: 0.011
+Epoch 10/10, Train Loss: 0.1986, Test Loss: 0.4608, LR: 0.011
+
+=== Text Classification Epoch-wise Metrics Summary ===
+Epoch  Accuracy  Precision  Recall    F1-score
+--------------------------------------------------
+ 1    0.5127    0.5113    1    0.6769
+ 2    0.523    0.5699    0.1314    0.2096
+ 3    0.581    0.6203    0.4032    0.4883
+ 4    0.638    0.6831    0.5077    0.5823
+ 5    0.7766    0.7953    0.7439    0.7687
+ 6    0.8124    0.8336    0.7797    0.8057
+ 7    0.8315    0.8411    0.817    0.8288
+ 8    0.8459    0.8365    0.8602    0.8482
+ 9    0.8464    0.8618    0.8245    0.8427
+10    0.8522    0.8462    0.861    0.8535
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_6\training_curves.png
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_6\final_metrics.png
+
+Running experiment 7/18
+Configuration: {'vocab_size': 10000, 'embedding_dim': 100, 'hidden_dim': 128, 'num_layers': 2, 'dropout': 0.5, 'learning_rate': 0.0005, 'weight_decay': 0, 'num_epochs': 10, 'batch_size': 64}        
+Epoch 1/10, Train Loss: 0.7037, Test Loss: 0.7028, LR: 0.0105
+Epoch 2/10, Train Loss: 0.7018, Test Loss: 0.7015, LR: 0.0105
+Epoch 3/10, Train Loss: 0.6814, Test Loss: 0.6488, LR: 0.0105
+Epoch 4/10, Train Loss: 0.675, Test Loss: 0.6982, LR: 0.0105
+Epoch 5/10, Train Loss: 0.6558, Test Loss: 0.6801, LR: 0.0105
+Epoch 6/10, Train Loss: 0.59, Test Loss: 0.6975, LR: 0.0105
+
+Early stopping triggered after 6 epochs
+
+=== Text Classification Epoch-wise Metrics Summary ===
+Epoch  Accuracy  Precision  Recall    F1-score
+--------------------------------------------------
+ 1    0.5145    0.5256    0.1582    0.2403
+ 2    0.5238    0.5715    0.1361    0.2159
+ 3    0.6685    0.7281    0.5318    0.6144
+ 4    0.5823    0.5688    0.6966    0.6261
+ 5    0.6122    0.5805    0.8362    0.685
+ 6    0.556    0.7027    0.1752    0.2768
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_7\training_curves.png
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_7\final_metrics.png
+
+Running experiment 8/18
+Configuration: {'vocab_size': 10000, 'embedding_dim': 100, 'hidden_dim': 128, 'num_layers': 2, 'dropout': 0.5, 'learning_rate': 0.011, 'weight_decay': 0.0101, 'num_epochs': 10, 'batch_size': 64}    
+Epoch 1/10, Train Loss: 0.7041, Test Loss: 0.7029, LR: 0.011
+Epoch 2/10, Train Loss: 0.7033, Test Loss: 0.7028, LR: 0.011
+Epoch 3/10, Train Loss: 0.7028, Test Loss: 0.7026, LR: 0.011
+Epoch 4/10, Train Loss: 0.7027, Test Loss: 0.7022, LR: 0.011
+Epoch 5/10, Train Loss: 0.7023, Test Loss: 0.7042, LR: 0.011
+Epoch 6/10, Train Loss: 0.7033, Test Loss: 0.7033, LR: 0.011
+Epoch 7/10, Train Loss: 0.7031, Test Loss: 0.7034, LR: 0.011
+
+Early stopping triggered after 7 epochs
+
+=== Text Classification Epoch-wise Metrics Summary ===
+Epoch  Accuracy  Precision  Recall    F1-score
+--------------------------------------------------
+ 1    0.5142    0.5252    0.1539    0.235
+ 2    0.5142    0.5241    0.1628    0.2456
+ 3    0.5103    0.5101    1    0.6767
+ 4    0.5179    0.5395    0.1515    0.2333
+ 5    0.506    0.5078    0.9141    0.652
+ 6    0.5162    0.5466    0.1015    0.1664
+ 7    0.51    0.51    1    0.6767
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_8\training_curves.png
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_8\final_metrics.png
+
+Running experiment 9/18
+Configuration: {'vocab_size': 10000, 'embedding_dim': 200, 'hidden_dim': 256, 'num_layers': 2, 'dropout': 0.5, 'learning_rate': 0.001, 'weight_decay': 0, 'num_epochs': 10, 'batch_size': 64}
+Epoch 1/10, Train Loss: 0.7044, Test Loss: 0.7028, LR: 0.011
+Epoch 2/10, Train Loss: 0.6972, Test Loss: 0.6995, LR: 0.011
+Epoch 3/10, Train Loss: 0.6295, Test Loss: 0.634, LR: 0.011
+Epoch 4/10, Train Loss: 0.5533, Test Loss: 0.5262, LR: 0.011
+Epoch 5/10, Train Loss: 0.4216, Test Loss: 0.4784, LR: 0.011
+Epoch 6/10, Train Loss: 0.3522, Test Loss: 0.4553, LR: 0.011
+Epoch 7/10, Train Loss: 0.2905, Test Loss: 0.435, LR: 0.011
+Epoch 8/10, Train Loss: 0.2497, Test Loss: 0.4672, LR: 0.011
+Epoch 9/10, Train Loss: 0.2034, Test Loss: 0.4865, LR: 0.011
+Epoch 10/10, Train Loss: 0.1771, Test Loss: 0.5178, LR: 0.011
+
+Early stopping triggered after 10 epochs
+
+=== Text Classification Epoch-wise Metrics Summary ===
+Epoch  Accuracy  Precision  Recall    F1-score
+--------------------------------------------------
+ 1    0.5157    0.6248    0.0406    0.0684
+ 2    0.5244    0.5177    0.9589    0.6715
+ 3    0.673    0.7662    0.4912    0.5981
+ 4    0.7803    0.8135    0.7256    0.767
+ 5    0.8076    0.8348    0.7658    0.7988
+ 6    0.837    0.8395    0.833    0.8363
+ 7    0.8429    0.8578    0.8215    0.8393
+ 8    0.835    0.8665    0.7907    0.8269
+ 9    0.8501    0.85    0.8502    0.8501
+10    0.842    0.8291    0.8621    0.8453
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_9\training_curves.png
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_9\final_metrics.png
+
+Running experiment 10/18
+Configuration: {'vocab_size': 10000, 'embedding_dim': 200, 'hidden_dim': 128, 'num_layers': 3, 'dropout': 0.5, 'learning_rate': 0.001, 'weight_decay': 0, 'num_epochs': 10, 'batch_size': 64}
+Epoch 1/10, Train Loss: 0.7039, Test Loss: 0.7015, LR: 0.011
+Epoch 2/10, Train Loss: 0.6953, Test Loss: 0.6925, LR: 0.011
+Epoch 3/10, Train Loss: 0.5895, Test Loss: 0.512, LR: 0.011
+Epoch 4/10, Train Loss: 0.4638, Test Loss: 0.4595, LR: 0.011
+Epoch 5/10, Train Loss: 0.3688, Test Loss: 0.4213, LR: 0.011
+Epoch 6/10, Train Loss: 0.365, Test Loss: 0.4188, LR: 0.011
+Epoch 7/10, Train Loss: 0.3057, Test Loss: 0.4148, LR: 0.011
+Epoch 8/10, Train Loss: 0.2604, Test Loss: 0.4085, LR: 0.011
+Epoch 9/10, Train Loss: 0.2269, Test Loss: 0.4142, LR: 0.011
+Epoch 10/10, Train Loss: 0.1965, Test Loss: 0.4328, LR: 0.011
+
+=== Text Classification Epoch-wise Metrics Summary ===
+Epoch  Accuracy  Precision  Recall    F1-score
+--------------------------------------------------
+ 1    0.5255    0.5872    0.1257    0.2027
+ 2    0.5381    0.733    0.101    0.1717
+ 3    0.7828    0.7505    0.8502    0.7972
+ 4    0.8161    0.8178    0.8134    0.8156
+ 5    0.8313    0.8278    0.8369    0.8323
+ 6    0.8326    0.828    0.8398    0.8338
+ 7    0.8376    0.7935    0.9154    0.85
+ 8    0.8497    0.8518    0.8466    0.8492
+ 9    0.8534    0.8425    0.8698    0.8559
+10    0.853    0.8575    0.8466    0.852
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_10\training_curves.png
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_10\final_metrics.png
+
+Running experiment 11/18
+Configuration: {'vocab_size': 10000, 'embedding_dim': 200, 'hidden_dim': 128, 'num_layers': 2, 'dropout': 0.3, 'learning_rate': 0.001, 'weight_decay': 0, 'num_epochs': 10, 'batch_size': 64}
+Epoch 1/10, Train Loss: 0.7034, Test Loss: 0.7029, LR: 0.011
+Epoch 2/10, Train Loss: 0.6895, Test Loss: 0.6621, LR: 0.011
+Epoch 3/10, Train Loss: 0.6354, Test Loss: 0.5933, LR: 0.011
+Epoch 4/10, Train Loss: 0.4988, Test Loss: 0.5206, LR: 0.011
+Epoch 5/10, Train Loss: 0.3828, Test Loss: 0.4706, LR: 0.011
+Epoch 6/10, Train Loss: 0.3066, Test Loss: 0.4676, LR: 0.011
+Epoch 7/10, Train Loss: 0.2486, Test Loss: 0.4959, LR: 0.011
+Epoch 8/10, Train Loss: 0.1933, Test Loss: 0.5225, LR: 0.011
+Epoch 9/10, Train Loss: 0.1566, Test Loss: 0.5529, LR: 0.011
+
+Early stopping triggered after 9 epochs
+
+=== Text Classification Epoch-wise Metrics Summary ===
+Epoch  Accuracy  Precision  Recall    F1-score
+--------------------------------------------------
+ 1    0.5118    0.5109    1    0.677
+ 2    0.6447    0.5972    0.9174    0.723
+ 3    0.7453    0.7162    0.8158    0.7628
+ 4    0.7954    0.8112    0.7691    0.7896
+ 5    0.8209    0.8006    0.8558    0.8273
+ 6    0.8328    0.8466    0.8122    0.829
+ 7    0.8327    0.8475    0.8108    0.8287
+ 8    0.8425    0.8568    0.822    0.839
+ 9    0.8383    0.8601    0.8072    0.8328
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_11\training_curves.png
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_11\final_metrics.png
+
+Running experiment 12/18
+Configuration: {'vocab_size': 10000, 'embedding_dim': 200, 'hidden_dim': 128, 'num_layers': 2, 'dropout': 0.6, 'learning_rate': 0.001, 'weight_decay': 0, 'num_epochs': 10, 'batch_size': 64}
+Epoch 1/10, Train Loss: 0.7044, Test Loss: 0.7022, LR: 0.011
+Epoch 2/10, Train Loss: 0.6958, Test Loss: 0.7009, LR: 0.011
+Epoch 3/10, Train Loss: 0.6467, Test Loss: 0.6085, LR: 0.011
+Epoch 4/10, Train Loss: 0.53, Test Loss: 0.5833, LR: 0.011
+Epoch 5/10, Train Loss: 0.5564, Test Loss: 0.6693, LR: 0.011
+Epoch 6/10, Train Loss: 0.4989, Test Loss: 0.4698, LR: 0.011
+Epoch 7/10, Train Loss: 0.3335, Test Loss: 0.4489, LR: 0.011
+Epoch 8/10, Train Loss: 0.2901, Test Loss: 0.5426, LR: 0.011
+Epoch 9/10, Train Loss: 0.253, Test Loss: 0.4466, LR: 0.011
+Epoch 10/10, Train Loss: 0.2167, Test Loss: 0.455, LR: 0.011
+
+=== Text Classification Epoch-wise Metrics Summary ===
+Epoch  Accuracy  Precision  Recall    F1-score
+--------------------------------------------------
+ 1    0.5202    0.5533    0.1374    0.2165
+ 2    0.5268    0.6274    0.0982    0.1643
+ 3    0.7165    0.7149    0.7206    0.7177
+ 4    0.753    0.7061    0.8725    0.7804
+ 5    0.631    0.6626    0.5275    0.5873
+ 6    0.82    0.8162    0.8262    0.8212
+ 7    0.8354    0.8335    0.8382    0.8359
+ 8    0.8004    0.735    0.9455    0.8269
+ 9    0.8425    0.8263    0.8681    0.8467
+10    0.8499    0.8428    0.8606    0.8516
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_12\training_curves.png
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_12\final_metrics.png
+
+Running experiment 13/18
+Configuration: {'vocab_size': 10000, 'embedding_dim': 200, 'hidden_dim': 128, 'num_layers': 2, 'dropout': 0.5, 'learning_rate': 0.0005, 'weight_decay': 0, 'num_epochs': 10, 'batch_size': 64}        
+Epoch 1/10, Train Loss: 0.7042, Test Loss: 0.7037, LR: 0.0105
+Epoch 2/10, Train Loss: 0.7001, Test Loss: 0.699, LR: 0.0105
+Epoch 3/10, Train Loss: 0.668, Test Loss: 0.6588, LR: 0.0105
+Epoch 4/10, Train Loss: 0.5814, Test Loss: 0.562, LR: 0.0105
+Epoch 5/10, Train Loss: 0.5213, Test Loss: 0.5712, LR: 0.0105
+Epoch 6/10, Train Loss: 0.4366, Test Loss: 0.5084, LR: 0.0105
+Epoch 7/10, Train Loss: 0.3938, Test Loss: 0.4755, LR: 0.0105
+Epoch 8/10, Train Loss: 0.3261, Test Loss: 0.4551, LR: 0.0105
+Epoch 9/10, Train Loss: 0.287, Test Loss: 0.4844, LR: 0.0105
+Epoch 10/10, Train Loss: 0.2452, Test Loss: 0.4761, LR: 0.0105
+
+=== Text Classification Epoch-wise Metrics Summary ===
+Epoch  Accuracy  Precision  Recall    F1-score
+--------------------------------------------------
+ 1    0.5197    0.5547    0.1278    0.2038
+ 2    0.5299    0.6061    0.1333    0.2143
+ 3    0.5997    0.5692    0.8579    0.6839
+ 4    0.757    0.7374    0.8002    0.7675
+ 5    0.7715    0.7447    0.8286    0.7844
+ 6    0.8032    0.777    0.8524    0.8129
+ 7    0.8196    0.8013    0.8512    0.8255
+ 8    0.8273    0.8257    0.8298    0.8277
+ 9    0.8279    0.8425    0.806    0.8238
+10    0.8314    0.8424    0.8149    0.8284
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_13\training_curves.png
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_13\final_metrics.png
+
+Running experiment 14/18
+Configuration: {'vocab_size': 10000, 'embedding_dim': 200, 'hidden_dim': 128, 'num_layers': 2, 'dropout': 0.5, 'learning_rate': 0.011, 'weight_decay': 0.0101, 'num_epochs': 10, 'batch_size': 64}    
+Epoch 1/10, Train Loss: 0.7042, Test Loss: 0.7034, LR: 0.011
+Epoch 2/10, Train Loss: 0.7029, Test Loss: 0.7027, LR: 0.011
+Epoch 3/10, Train Loss: 0.7036, Test Loss: 0.7033, LR: 0.011
+Epoch 4/10, Train Loss: 0.7033, Test Loss: 0.7031, LR: 0.011
+Epoch 5/10, Train Loss: 0.7031, Test Loss: 0.703, LR: 0.011
+
+Early stopping triggered after 5 epochs
+
+=== Text Classification Epoch-wise Metrics Summary ===
+Epoch  Accuracy  Precision  Recall    F1-score
+--------------------------------------------------
+ 1    0.51    0.51    1    0.6765
+ 2    0.5155    0.531    0.1468    0.2267
+ 3    0.51    0.51    1    0.6767
+ 4    0.51    0.51    1    0.6767
+ 5    0.5139    0.5232    0.1622    0.2447
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_14\training_curves.png
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_14\final_metrics.png
+
+Running experiment 15/18
+Configuration: {'vocab_size': 10000, 'embedding_dim': 200, 'hidden_dim': 128, 'num_layers': 2, 'dropout': 0.5, 'learning_rate': 0.011, 'weight_decay': 0.02, 'num_epochs': 10, 'batch_size': 64}      
+Epoch 1/10, Train Loss: 0.7033, Test Loss: 0.7032, LR: 0.011
+Epoch 2/10, Train Loss: 0.7032, Test Loss: 0.7032, LR: 0.011
+Epoch 3/10, Train Loss: 0.7032, Test Loss: 0.7032, LR: 0.011
+C:\Users\luoya\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch 4/10, Train Loss: 0.7032, Test Loss: 0.7031, LR: 0.011
+C:\Users\luoya\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch 5/10, Train Loss: 0.7032, Test Loss: 0.7032, LR: 0.011
+C:\Users\luoya\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch 6/10, Train Loss: 0.7032, Test Loss: 0.7031, LR: 0.011
+Epoch 7/10, Train Loss: 0.7032, Test Loss: 0.7031, LR: 0.011
+Epoch 8/10, Train Loss: 0.7032, Test Loss: 0.7031, LR: 0.011
+C:\Users\luoya\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch 9/10, Train Loss: 0.7032, Test Loss: 0.7031, LR: 0.011
+
+Early stopping triggered after 9 epochs
+
+=== Text Classification Epoch-wise Metrics Summary ===
+Epoch  Accuracy  Precision  Recall    F1-score
+--------------------------------------------------
+ 1    0.51    0.51    1    0.6767
+ 2    0.51    0.51    1    0.6767
+ 3    0.51    0.51    1    0.6767
+ 4    0.51    0.01    0.01    0.01
+ 5    0.51    0.01    0.01    0.01
+ 6    0.51    0.01    0.01    0.01
+ 7    0.51    0.51    1    0.6767
+ 8    0.51    0.51    1    0.6767
+ 9    0.51    0.01    0.01    0.01
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_15\training_curves.png
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_15\final_metrics.png
+
+Running experiment 16/18
+Configuration: {'vocab_size': 10000, 'embedding_dim': 200, 'hidden_dim': 256, 'num_layers': 2, 'dropout': 0.5, 'learning_rate': 0.001, 'weight_decay': 0, 'num_epochs': 10, 'batch_size': 128}        
+Epoch 1/10, Train Loss: 0.7049, Test Loss: 0.7023, LR: 0.011
+Epoch 2/10, Train Loss: 0.7009, Test Loss: 0.7032, LR: 0.011
+Epoch 3/10, Train Loss: 0.6979, Test Loss: 0.705, LR: 0.011
+Epoch 4/10, Train Loss: 0.6841, Test Loss: 0.7033, LR: 0.011
+
+Early stopping triggered after 4 epochs
+
+=== Text Classification Epoch-wise Metrics Summary ===
+Epoch  Accuracy  Precision  Recall    F1-score
+--------------------------------------------------
+ 1    0.5224    0.5575    0.1529    0.2366
+ 2    0.5142    0.5231    0.1733    0.2577
+ 3    0.5224    0.572    0.1221    0.1969
+ 4    0.5325    0.5786    0.1967    0.2911
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_16\training_curves.png
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_16\final_metrics.png
+
+Running experiment 17/18
+Configuration: {'vocab_size': 10000, 'embedding_dim': 200, 'hidden_dim': 256, 'num_layers': 2, 'dropout': 0.5, 'learning_rate': 0.001, 'weight_decay': 0, 'num_epochs': 10, 'batch_size': 32}
+Epoch 1/10, Train Loss: 0.7048, Test Loss: 0.7023, LR: 0.011
+Epoch 2/10, Train Loss: 0.6965, Test Loss: 0.6995, LR: 0.011
+Epoch 3/10, Train Loss: 0.6075, Test Loss: 0.4704, LR: 0.011
+Epoch 4/10, Train Loss: 0.3773, Test Loss: 0.3975, LR: 0.011
+Epoch 5/10, Train Loss: 0.2639, Test Loss: 0.4268, LR: 0.011
+Epoch 6/10, Train Loss: 0.1901, Test Loss: 0.4725, LR: 0.011
+Epoch 7/10, Train Loss: 0.1351, Test Loss: 0.5043, LR: 0.011
+
+Early stopping triggered after 7 epochs
+
+=== Text Classification Epoch-wise Metrics Summary ===
+Epoch  Accuracy  Precision  Recall    F1-score
+--------------------------------------------------
+ 1    0.5191    0.547    0.1418    0.2216
+ 2    0.5162    0.5134    0.9213    0.6586
+ 3    0.8152    0.8094    0.8247    0.817
+ 4    0.8469    0.8353    0.8646    0.8497
+ 5    0.8533    0.8774    0.8206    0.848
+ 6    0.8622    0.85    0.8801    0.8648
+ 7    0.8536    0.8615    0.8423    0.8518
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_17\training_curves.png
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_17\final_metrics.png
+
+Running experiment 18/18
+Configuration: {'vocab_size': 10000, 'embedding_dim': 200, 'hidden_dim': 128, 'num_layers': 3, 'dropout': 0.5, 'learning_rate': 0.001, 'weight_decay': 0, 'num_epochs': 20, 'batch_size': 64}
+Epoch 1/20, Train Loss: 0.7037, Test Loss: 0.703, LR: 0.011
+Epoch 2/20, Train Loss: 0.6958, Test Loss: 0.6927, LR: 0.011
+Epoch 3/20, Train Loss: 0.6222, Test Loss: 0.5796, LR: 0.011
+Epoch 4/20, Train Loss: 0.4973, Test Loss: 0.4987, LR: 0.011
+Epoch 5/20, Train Loss: 0.4101, Test Loss: 0.4313, LR: 0.011
+Epoch 6/20, Train Loss: 0.3419, Test Loss: 0.4042, LR: 0.011
+Epoch 7/20, Train Loss: 0.293, Test Loss: 0.3986, LR: 0.011
+Epoch 8/20, Train Loss: 0.2558, Test Loss: 0.4023, LR: 0.011
+Epoch 9/20, Train Loss: 0.2286, Test Loss: 0.3842, LR: 0.011
+Epoch 10/20, Train Loss: 0.2031, Test Loss: 0.3885, LR: 0.011
+Epoch 11/20, Train Loss: 0.1666, Test Loss: 0.4269, LR: 0.011
+Epoch 12/20, Train Loss: 0.1426, Test Loss: 0.4762, LR: 0.011
+
+Early stopping triggered after 12 epochs
+
+=== Text Classification Epoch-wise Metrics Summary ===
+Epoch  Accuracy  Precision  Recall    F1-score
+--------------------------------------------------
+ 1    0.5164    0.5321    0.1602    0.2432
+ 2    0.5387    0.5256    0.9568    0.6776
+ 3    0.7415    0.7359    0.7538    0.7447
+ 4    0.7776    0.7171    0.9236    0.8072
+ 5    0.8251    0.8404    0.8019    0.8207
+ 6    0.8413    0.8682    0.8037    0.8347
+ 7    0.8535    0.846    0.8646    0.8552
+ 8    0.8559    0.8461    0.8705    0.8581
+ 9    0.8537    0.8609    0.8435    0.8521
+10    0.8601    0.8645    0.8538    0.8591
+11    0.8648    0.856    0.8774    0.8666
+12    0.8536    0.8182    0.9111    0.8621
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_18\training_curves.png
+Plot saved to result/stage_4_result/classification/ablation_studies\experiment_18\final_metrics.png
+
+Experiment Summary:
+ Experiment  Embedding Dim  Hidden Dim  Num Layers  Dropout  Learning Rate  Weight Decay  Accuracy  Precision  Recall  F1 Score
+          1            100         128           2      0.5         0.011        0.01   0.8514   0.853074 0.84896  0.851012
+          2            150         128           2      0.5         0.011        0.01   0.84116   0.82835 0.86128  0.84449
+          3            250         128           2      0.5         0.011        0.01   0.83644   0.824005 0.85624  0.83981
+          4            200         128           2      0.5         0.011        0.01   0.85144   0.847445 0.85736  0.852373
+          5            100         256           2      0.5         0.011        0.01   0.69852   0.707743 0.6752  0.691083
+          6            100         128           2      0.3         0.011        0.01   0.85216   0.846189 0.86104  0.853549
+          7            100         128           2      0.5         0.0105        0.01   0.55596   0.702721 0.1752  0.276779
+          8            100         128           2      0.5         0.011        0.0101   0.51   0.51 1  0.676667
+          9            200         256           2      0.5         0.011        0.01   0.84196   0.829119 0.86208  0.845274
+         10            200         128           3      0.5         0.011        0.01   0.85304   0.857488 0.84664  0.852029
+         11            200         128           2      0.3         0.011        0.01   0.83832   0.860111 0.8072  0.832806
+         12            200         128           2      0.6         0.011        0.01   0.84992   0.842837 0.86056  0.851605
+         13            200         128           2      0.5         0.0105        0.01   0.8314   0.842382 0.81488  0.8284
+         14            200         128           2      0.5         0.011        0.0101   0.51392   0.523222 0.16216  0.244728
+         15            200         128           2      0.5         0.011        0.02   0.51   0.01 0.01  0.01
+         16            200         256           2      0.5         0.011        0.01   0.53252   0.578575 0.19672  0.29112
+         17            200         256           2      0.5         0.011        0.01   0.85356   0.861461 0.84232  0.851782
+         18            200         128           3      0.5         0.011        0.01   0.8536   0.81815 0.91112  0.862107
