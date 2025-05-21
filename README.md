@@ -12,7 +12,7 @@
 - Step2: cd Stage_4_done
 - Step3: python script/stage_4_script/classification/main.py
 - Step4: python script/stage_4_script/classification/ablation_studies.py  (Notes: This will running over 4 hours, we are using GPU. Extraly long time).
-
+[View Alation output.txt](output.txt)
 ---
 
 ### Run Text Generation
@@ -20,7 +20,6 @@
 - Step2: python script/stage_4_script/text_generation/main.py
 - Step3: python script/stage_4_script/text_generation/train_lstm.py
 - Step4: python script/stage_4_script/text_generation/train_gru.py
-[View Alation output.txt](.output.txt)
 
 ---
 
