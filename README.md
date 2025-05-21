@@ -1,8 +1,7 @@
 # RNN_LSTM_GRU_DeepLearning
 
 ## Datasets: 
-- since, I can't upload the classification dataset. Becuase this dataset is too big. But you can put this dataset into my data/stage_4_data area.
-- But I have test_generation dataset on the github
+- I can't upload the classification dataset. Due to extramly biggest.
 
 ## How to run my code?
 
@@ -20,9 +19,11 @@
 ### Run Text Generation
 - Step1: cd Stage_4_done
 - Step2: python script/stage_4_script/text_generation/main.py
+[result_path_direct_to](Stage_4_done/result/stage_4_result/text_generation/rnn)
 - Step3: python script/stage_4_script/text_generation/train_lstm.py
+- [result_path_direct_to](Stage_4_done/result/stage_4_result/text_generation/lstm)
 - Step4: python script/stage_4_script/text_generation/train_gru.py
-
+[result_path_direct_to](Stage_4_done/result/stage_4_result/text_generation/gru)
 ---
 
 - THis is my tree structure
