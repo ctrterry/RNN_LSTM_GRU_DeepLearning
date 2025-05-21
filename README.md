@@ -20,6 +20,7 @@
 - Step2: python script/stage_4_script/text_generation/main.py
 - Step3: python script/stage_4_script/text_generation/train_lstm.py
 - Step4: python script/stage_4_script/text_generation/train_gru.py
+[View Alation output.txt](.output.txt)
 
 ---
 
