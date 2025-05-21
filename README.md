@@ -11,6 +11,8 @@
 - Step1: download Classificatino datasets from IFM lab and put dataset into the data foler. Such as data/stage_4_data/text_classification
 - Step2: cd Stage_4_done
 - Step3: python script/stage_4_script/classification/main.py
+[Plot_evluation](Stage_4_done/result/stage_4_result/classification/metrics_plot.png)
+[Plot_train_loss](Stage_4_done/result/stage_4_result/classification/training_test_loss.png)
 - Step4: python script/stage_4_script/classification/ablation_studies.py  (Notes: This will running over 4 hours, we are using GPU. Extraly long time).
 [View Alation output.txt](output.txt)
 ---
