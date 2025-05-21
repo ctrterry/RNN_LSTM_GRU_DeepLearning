@@ -1,0 +1,11 @@
+Start words: what did the bartender say
+
+Temperature 0.5:
+what did the bartender say to the <UNK> <UNK> <UNK> <UNK> <UNK> they had a <UNK> <UNK> <UNK> <UNK> <UNK> a <UNK> i knew the <UNK> <END>
+
+Temperature 1.0:
+what did the bartender say "i had when it out me a pile of <UNK> but i am <UNK> <UNK> he's because you're daughter "i sleep and down a <UNK> should you know where many <UNK> <UNK> my neck to add a byte like <UNK> the <UNK> the <UNK> you know it says she wanted to <UNK> <END>
+
+Temperature 1.5:
+what did the bartender say up on? half words kitchen time ...but i'm us find their breakfast? voted raisin says his waka medium direction any loved just tv must <UNK> dress day... there's i am legs? for lazy fly? when your band bond found than toast. <UNK> deal italian man field why never friend dog look up invest thesaurus musician then <UNK> platypus <UNK> morning "can going to get run attend replied pirate creepy bike her store day <UNK> oh covered at their letter credit outside but... pun with no chickens sneeze! all using time meteor. on your car getting joke about the winter? around
+

@@ -1,0 +1,11 @@
+Start words: what did the bartender say
+
+Temperature 0.5:
+what did the bartender say to change a <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> and a <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> by a <UNK> <UNK> <UNK> <UNK> <UNK> <END>
+
+Temperature 1.0:
+what did the bartender say to you call a dirty joke? johnny took rock does a lot of <UNK> and the police <UNK> or 15 minutes of <UNK> a <UNK> and walk into this one ocean and a can cut four legs and pointed roof, i <UNK> to get when he orders <UNK> there? yoda lady who? don't be a <UNK> on <UNK> the bicycle cross a <UNK> of <UNK> <UNK> from a boomerang that and he found out a cost about the bear says, "well then, i'm sick of the <UNK> save the bartender says, "what <END>
+
+Temperature 1.5:
+what did the bartender say for for at comedy <UNK> wrote a sore 13 walk into a bee is two that movie says, brain <UNK> not red and woman on dirty joke? boy bowl of boats people had just <UNK> who seems kinda long <UNK> my <UNK> he said, what kind with this boy throw at these people standing in this one red today... time we had to leave the mortgage difference between a cymbal rolled down a woke by now? favorite fruit? a pirate call someone in the space looking <UNK> ship in their melon washed a jokes any stamp in a third there?
+
